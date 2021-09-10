@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+@media (min-width: 992px) { .col-lg-4 
+	{ float: left;
+	  
+}
+.col-lg-4 {
+	width: 33.33%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) { .col-med-6, .col-med-12
+	{   float: left;
+		
+	}
+.col-med-6 {
+	width: 50%;
+ }
+.col-med-12 {
+	width: 100%;
+}
+#box3 {
+	width: 99%;
+}
+#seafood {
+	width: 17.5%;
+}
+}
+
+@media (max-width: 767px)  { .col-sm-12
+	{   float: left;
+		
+}
+.col-sm-12 {
+	width: 100%;
+}
+}
+
+h1 {
+	margin-top: 30px;
+	margin-bottom:  30px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 55px;
+}
+
+.foodtype {
+	width: 35%;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;	
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+	margin: 0;
+	font-size: 27px;
+	font-family: Helvetica;
+
+}
+
+#chicken {
+	background-color: yellow;
+}
+#beef {
+	background-color: red;
+}
+#seafood {
+	background-color: skyblue;
+}
+
+.boxcreation {
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 98%;
+	height: 175px;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.food_description {
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	padding: 10px;
+	margin: 0;
+	font-size: 19px;
+
+}
+
